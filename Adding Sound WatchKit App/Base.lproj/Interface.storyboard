@@ -15,6 +15,11 @@
                                 <action selector="buttonPressed" destination="AgC-eL-Hgc" id="g5o-eM-viC"/>
                             </connections>
                         </button>
+                        <slider width="1" alignment="left" value="0.20000000000000001" steps="10" id="USl-OD-42h">
+                            <connections>
+                                <action selector="volumeVal:" destination="AgC-eL-Hgc" id="KK0-HB-CLe"/>
+                            </connections>
+                        </slider>
                     </items>
                     <connections>
                         <outlet property="buttonLabel" destination="rHN-Ei-4gS" id="dkV-fe-0Fk"/>
