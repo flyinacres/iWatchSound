@@ -13,6 +13,14 @@
 		A53E508E1BC49553008F3B05 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A53E508D1BC49553008F3B05 /* Images.xcassets */; };
 		A53E50911BC49553008F3B05 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A53E508F1BC49553008F3B05 /* LaunchScreen.xib */; };
 		A53E509D1BC49553008F3B05 /* Adding_SoundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53E509C1BC49553008F3B05 /* Adding_SoundTests.swift */; };
+		A53E50B01BC4956B008F3B05 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53E50AF1BC4956B008F3B05 /* InterfaceController.swift */; };
+		A53E50B21BC4956B008F3B05 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53E50B11BC4956B008F3B05 /* NotificationController.swift */; };
+		A53E50B41BC4956B008F3B05 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A53E50B31BC4956B008F3B05 /* Images.xcassets */; };
+		A53E50B81BC4956B008F3B05 /* Adding Sound WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = A53E50B71BC4956B008F3B05 /* Adding Sound WatchKit App.app */; };
+		A53E50C01BC4956B008F3B05 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A53E50BE1BC4956B008F3B05 /* Interface.storyboard */; };
+		A53E50C21BC4956B008F3B05 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A53E50C11BC4956B008F3B05 /* Images.xcassets */; };
+		A53E50C51BC4956B008F3B05 /* Adding Sound WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A53E50AA1BC4956B008F3B05 /* Adding Sound WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A53E50CE1BC49688008F3B05 /* jcbach-17-6-1-hjlee.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A53E50CD1BC49688008F3B05 /* jcbach-17-6-1-hjlee.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +31,35 @@
 			remoteGlobalIDString = A53E50801BC49553008F3B05;
 			remoteInfo = "Adding Sound";
 		};
+		A53E50B91BC4956B008F3B05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A53E50791BC49553008F3B05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A53E50B61BC4956B008F3B05;
+			remoteInfo = "Adding Sound WatchKit App";
+		};
+		A53E50C31BC4956B008F3B05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A53E50791BC49553008F3B05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A53E50A91BC4956B008F3B05;
+			remoteInfo = "Adding Sound WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A53E50CC1BC4956B008F3B05 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A53E50C51BC4956B008F3B05 /* Adding Sound WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		A53E50811BC49553008F3B05 /* Adding Sound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Adding Sound.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +72,17 @@
 		A53E50961BC49553008F3B05 /* Adding SoundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Adding SoundTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A53E509B1BC49553008F3B05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A53E509C1BC49553008F3B05 /* Adding_SoundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adding_SoundTests.swift; sourceTree = "<group>"; };
+		A53E50AA1BC4956B008F3B05 /* Adding Sound WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Adding Sound WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A53E50AD1BC4956B008F3B05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A53E50AE1BC4956B008F3B05 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		A53E50AF1BC4956B008F3B05 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		A53E50B11BC4956B008F3B05 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		A53E50B31BC4956B008F3B05 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A53E50B71BC4956B008F3B05 /* Adding Sound WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Adding Sound WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A53E50BD1BC4956B008F3B05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A53E50BF1BC4956B008F3B05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		A53E50C11BC4956B008F3B05 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A53E50CD1BC49688008F3B05 /* jcbach-17-6-1-hjlee.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "jcbach-17-6-1-hjlee.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +100,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A53E50A71BC4956B008F3B05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -61,6 +115,8 @@
 			children = (
 				A53E50831BC49553008F3B05 /* Adding Sound */,
 				A53E50991BC49553008F3B05 /* Adding SoundTests */,
+				A53E50AB1BC4956B008F3B05 /* Adding Sound WatchKit Extension */,
+				A53E50BB1BC4956B008F3B05 /* Adding Sound WatchKit App */,
 				A53E50821BC49553008F3B05 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +126,8 @@
 			children = (
 				A53E50811BC49553008F3B05 /* Adding Sound.app */,
 				A53E50961BC49553008F3B05 /* Adding SoundTests.xctest */,
+				A53E50AA1BC4956B008F3B05 /* Adding Sound WatchKit Extension.appex */,
+				A53E50B71BC4956B008F3B05 /* Adding Sound WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +170,45 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A53E50AB1BC4956B008F3B05 /* Adding Sound WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A53E50CD1BC49688008F3B05 /* jcbach-17-6-1-hjlee.mp3 */,
+				A53E50AF1BC4956B008F3B05 /* InterfaceController.swift */,
+				A53E50B11BC4956B008F3B05 /* NotificationController.swift */,
+				A53E50B31BC4956B008F3B05 /* Images.xcassets */,
+				A53E50AC1BC4956B008F3B05 /* Supporting Files */,
+			);
+			path = "Adding Sound WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		A53E50AC1BC4956B008F3B05 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A53E50AD1BC4956B008F3B05 /* Info.plist */,
+				A53E50AE1BC4956B008F3B05 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A53E50BB1BC4956B008F3B05 /* Adding Sound WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				A53E50BE1BC4956B008F3B05 /* Interface.storyboard */,
+				A53E50C11BC4956B008F3B05 /* Images.xcassets */,
+				A53E50BC1BC4956B008F3B05 /* Supporting Files */,
+			);
+			path = "Adding Sound WatchKit App";
+			sourceTree = "<group>";
+		};
+		A53E50BC1BC4956B008F3B05 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A53E50BD1BC4956B008F3B05 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +219,12 @@
 				A53E507D1BC49553008F3B05 /* Sources */,
 				A53E507E1BC49553008F3B05 /* Frameworks */,
 				A53E507F1BC49553008F3B05 /* Resources */,
+				A53E50CC1BC4956B008F3B05 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A53E50C41BC4956B008F3B05 /* PBXTargetDependency */,
 			);
 			name = "Adding Sound";
 			productName = "Adding Sound";
@@ -150,6 +249,39 @@
 			productReference = A53E50961BC49553008F3B05 /* Adding SoundTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		A53E50A91BC4956B008F3B05 /* Adding Sound WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A53E50C91BC4956B008F3B05 /* Build configuration list for PBXNativeTarget "Adding Sound WatchKit Extension" */;
+			buildPhases = (
+				A53E50A61BC4956B008F3B05 /* Sources */,
+				A53E50A71BC4956B008F3B05 /* Frameworks */,
+				A53E50A81BC4956B008F3B05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A53E50BA1BC4956B008F3B05 /* PBXTargetDependency */,
+			);
+			name = "Adding Sound WatchKit Extension";
+			productName = "Adding Sound WatchKit Extension";
+			productReference = A53E50AA1BC4956B008F3B05 /* Adding Sound WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		A53E50B61BC4956B008F3B05 /* Adding Sound WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A53E50C61BC4956B008F3B05 /* Build configuration list for PBXNativeTarget "Adding Sound WatchKit App" */;
+			buildPhases = (
+				A53E50B51BC4956B008F3B05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Adding Sound WatchKit App";
+			productName = "Adding Sound WatchKit App";
+			productReference = A53E50B71BC4956B008F3B05 /* Adding Sound WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,6 +297,12 @@
 					A53E50951BC49553008F3B05 = {
 						CreatedOnToolsVersion = 6.4;
 						TestTargetID = A53E50801BC49553008F3B05;
+					};
+					A53E50A91BC4956B008F3B05 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					A53E50B61BC4956B008F3B05 = {
+						CreatedOnToolsVersion = 6.4;
 					};
 				};
 			};
@@ -183,6 +321,8 @@
 			targets = (
 				A53E50801BC49553008F3B05 /* Adding Sound */,
 				A53E50951BC49553008F3B05 /* Adding SoundTests */,
+				A53E50A91BC4956B008F3B05 /* Adding Sound WatchKit Extension */,
+				A53E50B61BC4956B008F3B05 /* Adding Sound WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -202,6 +342,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53E50A81BC4956B008F3B05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53E50CE1BC49688008F3B05 /* jcbach-17-6-1-hjlee.mp3 in Resources */,
+				A53E50B81BC4956B008F3B05 /* Adding Sound WatchKit App.app in Resources */,
+				A53E50B41BC4956B008F3B05 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53E50B51BC4956B008F3B05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53E50C01BC4956B008F3B05 /* Interface.storyboard in Resources */,
+				A53E50C21BC4956B008F3B05 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +384,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A53E50A61BC4956B008F3B05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53E50B21BC4956B008F3B05 /* NotificationController.swift in Sources */,
+				A53E50B01BC4956B008F3B05 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -232,6 +400,16 @@
 			isa = PBXTargetDependency;
 			target = A53E50801BC49553008F3B05 /* Adding Sound */;
 			targetProxy = A53E50971BC49553008F3B05 /* PBXContainerItemProxy */;
+		};
+		A53E50BA1BC4956B008F3B05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A53E50B61BC4956B008F3B05 /* Adding Sound WatchKit App */;
+			targetProxy = A53E50B91BC4956B008F3B05 /* PBXContainerItemProxy */;
+		};
+		A53E50C41BC4956B008F3B05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A53E50A91BC4956B008F3B05 /* Adding Sound WatchKit Extension */;
+			targetProxy = A53E50C31BC4956B008F3B05 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -250,6 +428,14 @@
 				A53E50901BC49553008F3B05 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		A53E50BE1BC4956B008F3B05 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A53E50BF1BC4956B008F3B05 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -390,6 +576,62 @@
 			};
 			name = Release;
 		};
+		A53E50C71BC4956B008F3B05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Adding_Sound_WatchKit_Extension;
+				INFOPLIST_FILE = "Adding Sound WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		A53E50C81BC4956B008F3B05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = Adding_Sound_WatchKit_Extension;
+				INFOPLIST_FILE = "Adding Sound WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		A53E50CA1BC4956B008F3B05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Adding Sound WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A53E50CB1BC4956B008F3B05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Adding Sound WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -415,6 +657,22 @@
 			buildConfigurations = (
 				A53E50A41BC49553008F3B05 /* Debug */,
 				A53E50A51BC49553008F3B05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A53E50C61BC4956B008F3B05 /* Build configuration list for PBXNativeTarget "Adding Sound WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53E50C71BC4956B008F3B05 /* Debug */,
+				A53E50C81BC4956B008F3B05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A53E50C91BC4956B008F3B05 /* Build configuration list for PBXNativeTarget "Adding Sound WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53E50CA1BC4956B008F3B05 /* Debug */,
+				A53E50CB1BC4956B008F3B05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
